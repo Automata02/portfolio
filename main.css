@@ -1,0 +1,143 @@
+body {
+    background-color: #302750;
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+}
+.text_block {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 1fr 500px 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+.text {
+    background-color: rgba(1, 1, 1, 0.1);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    color: #FFFFFF;
+    font-size: 200%;
+    text-align: justify;
+    line-height: 1.3;
+    padding: 1%;
+}
+
+.text a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#lnso{
+    color: #aedeea;
+}
+#lnso:hover{
+    color: #F495BE;
+    background-color: #aedeea;
+}
+#lnso:hover::before{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    content: url("static500.gif");
+    z-index: -1;
+}
+
+#work {
+    color: #FAF28A;
+}
+#work:hover{
+    color: #aedeea;
+    background-color: #FAF28A;
+}
+#work:hover::before{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    content: url("static500_2.gif");
+    z-index: -1;
+}
+
+
+#insta {
+    color: #F495BE;
+}
+#insta:hover{
+    color: #FAF28A;
+    background-color: #F495BE;
+}
+#insta:hover::before{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    content: url("static500_3.gif");
+    z-index: -1;
+}
+
+#resume {
+    color: #aedeea;    
+}
+#resume:hover{
+    color: #FAF28A;
+    background-color: #aedeea;
+}
+#resume:hover::before{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    content: url("static500_4.gif");
+    z-index: -1;
+}
+
+#email {
+    color: #FAF28A;
+}
+#email:hover{
+    color: #F495BE;
+    background-color: #FAF28A;
+}
+#email:hover::before{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    content: url("static500_5.gif");
+    z-index: -1;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .text_block {
+    display: grid;
+    grid-template-columns: 0.1fr 2fr 0.1fr;
+    grid-template-rows: 0.1fr 2fr 0.1fr;
+    height: 100vh;
+    width: 100vw;
+}
+#lnso:hover::before{
+    display:none;
+}
+#work:hover::before{
+    display: none;
+}
+#insta:hover::before{
+    display: none;
+}
+#resume:hover::before{
+    display: none;
+}
+#email:hover::before{
+    display: none;
+}
+
+}
