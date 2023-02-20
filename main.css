@@ -123,21 +123,24 @@ body {
     grid-template-rows: 0.1fr 2fr 0.1fr;
     height: 100vh;
     width: 100vw;
-}
-#lnso:hover::before{
-    display:none;
-}
-#work:hover::before{
-    display: none;
-}
-#insta:hover::before{
-    display: none;
-}
-#resume:hover::before{
-    display: none;
-}
-#email:hover::before{
-    display: none;
-}
+    }
+    .text {
+        font-size: 150%;
+    }
+    #name:hover::before{
+        display:none;
+    }
+    #experience:hover::before{
+        display: none;
+    }
+    #insta:hover::before{
+        display: none;
+    }
+    #resume:hover::before{
+        display: none;
+    }
+    #email:hover::before{
+        display: none;
+    }
 
 }
