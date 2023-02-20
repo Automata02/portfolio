@@ -29,14 +29,14 @@ body {
     color: #FFFFFF;
 }
 
-#lnso{
+#name{
     color: #aedeea;
 }
-#lnso:hover{
+#name:hover{
     color: #F495BE;
     background-color: #aedeea;
 }
-#lnso:hover::before{
+#name:hover::before{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -46,14 +46,14 @@ body {
     z-index: -1;
 }
 
-#work {
+#experience {
     color: #FAF28A;
 }
-#work:hover{
+#experience:hover{
     color: #aedeea;
     background-color: #FAF28A;
 }
-#work:hover::before{
+#experience:hover::before{
     position: fixed;
     top: 50%;
     left: 50%;
